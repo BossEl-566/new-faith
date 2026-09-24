@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-      <section className="flex min-h-[calc(100vh-84px)] items-center justify-center bg-white px-6">
+      <section className="flex min-h-[650px] items-center justify-center bg-white px-6">
         <div className="mx-auto max-w-4xl text-center">
           <Image
             src="/images/church-logo.jpg"

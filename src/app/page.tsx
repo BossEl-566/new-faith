@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white">
-      <section className="flex min-h-screen items-center justify-center px-6">
+    <main>
+      <section className="flex min-h-[calc(100vh-84px)] items-center justify-center bg-white px-6">
         <div className="mx-auto max-w-4xl text-center">
           <Image
             src="/images/church-logo.jpg"

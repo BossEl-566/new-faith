@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #111827;
+
+  /* New Christian Faith Ministry */
+  --church-red: #c8102e;
+  --church-red-dark: #9f0c24;
+
+  --church-blue: #123c73;
+  --church-blue-dark: #08264b;
+  --church-blue-light: #eef4fb;
+
+  --church-white: #ffffff;
+
+  --church-gray-50: #f8fafc;
+  --church-gray-100: #f1f5f9;
+  --church-gray-200: #e2e8f0;
+  --church-gray-500: #64748b;
+  --church-gray-700: #334155;
+  --church-gray-900: #0f172a;
+}
+
+@theme inline {
+  --font-sans: var(--font-poppins);
+
+  --color-church-red: var(--church-red);
+  --color-church-red-dark: var(--church-red-dark);
+
+  --color-church-blue: var(--church-blue);
+  --color-church-blue-dark: var(--church-blue-dark);
+  --color-church-blue-light: var(--church-blue-light);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-poppins), Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+::selection {
+  background: var(--church-red);
+  color: white;
+}

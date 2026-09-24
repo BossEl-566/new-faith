@@ -1,0 +1,21 @@
+{
+  "name": "new-faith",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BossEl-566/new-faith.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BossEl-566/new-faith/issues"
+  },
+  "homepage": "https://github.com/BossEl-566/new-faith#readme"
+}

@@ -14,15 +14,21 @@ export const church = {
 
   locations: {
     headOffice: {
-      name: "New Christian Faith Ministry - Head Office",
+      id: "head-office",
+      name: "Head Office",
+      churchName: "New Christian Faith Ministry",
       address: "Kwashieman, Accra, Ghana",
+      pastor: null,
       mapUrl:
         "https://maps.app.goo.gl/k4DVaTdvgL6mpEKNA?g_st=it",
     },
 
     ebenezerAssemblies: {
-      name: "New Christian Faith Ministry - Ebenezer Assemblies",
+      id: "ebenezer-assemblies",
+      name: "Ebenezer Assemblies",
+      churchName: "New Christian Faith Ministry",
       address: "Awoshie, Adjacent DVLA, Accra, Ghana",
+      pastor: "Ps Paul",
       mapUrl:
         "https://maps.app.goo.gl/QB8Kot92Xc9JxPHDA?g_st=it",
     },

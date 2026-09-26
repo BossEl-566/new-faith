@@ -15,11 +15,12 @@ import HeroCarousel from "@/components/home/HeroCarousel";
 import SectionHeading from "@/components/ui/SectionHeading";
 import { church } from "@/data/church";
 import {
-  founders,
   galleryPreview,
   journey,
   ministries,
 } from "@/data/home";
+
+import { founders } from "@/data/leadership";
 
 export default function HomePage() {
   return (
@@ -82,8 +83,8 @@ export default function HomePage() {
             <div className="grid grid-cols-2 gap-4">
               <div className="relative mt-12 h-[420px] overflow-hidden rounded-[28px]">
                 <Image
-                  src="/images/street-envagelism2.jpg"
-                  alt="New Christian Faith Ministry evangelism"
+                  src="/images/church-overview.jpg"
+                  alt="New Christian Faith Ministry church"
                   fill
                   sizes="(max-width: 1024px) 50vw, 25vw"
                   className="object-cover transition-transform duration-700 hover:scale-105"
@@ -351,7 +352,7 @@ export default function HomePage() {
             align="center"
           />
 
-          <div className="mx-auto mt-12 grid max-w-5xl gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mx-auto mt-12 grid max-w-6xl gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {founders.map((founder) => (
               <div
                 key={founder.name}

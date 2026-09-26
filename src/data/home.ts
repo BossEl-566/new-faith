@@ -1,15 +1,15 @@
 export const heroSlides = [
   {
-    image: "/images/street-envagelism1.jpg",
-    imageAlt: "New Christian Faith Ministry evangelism",
+    image: "/images/church-overview.jpg",
+    imageAlt: "New Christian Faith Ministry church",
     eyebrow: "Welcome To",
     title: "New Christian Faith Ministry",
     description:
       "A community rooted in Jesus Christ, led by the Holy Spirit, and committed to the true, undiluted Word of God.",
   },
   {
-    image: "/images/youth-group-photo.jpg",
-    imageAlt: "New Christian Faith Ministry youth",
+    image: "/images/youth-vibe.jpg",
+    imageAlt: "Young people at New Christian Faith Ministry",
     eyebrow: "Growing Together In Faith",
     title: "A Church For Every Generation",
     description:
@@ -19,9 +19,17 @@ export const heroSlides = [
     image: "/images/music-team.jpg",
     imageAlt: "New Christian Faith Ministry music ministry",
     eyebrow: "Worship • Fellowship • Purpose",
-    title: "Faith That Lives Beyond Sunday",
+    title: "A Life Of Worship & Service",
     description:
-      "Join a family pursuing spiritual growth, genuine fellowship, service, and a life that points others toward eternity.",
+      "Growing together through worship, fellowship, service and a shared commitment to Jesus Christ.",
+  },
+  {
+    image: "/images/men-praying.jpg",
+    imageAlt: "Members of New Christian Faith Ministry praying",
+    eyebrow: "A House Of Prayer",
+    title: "Rooted In Prayer & The Word",
+    description:
+      "Seeking God together and allowing His Word and Spirit to shape every area of our faith.",
   },
 ];
 
@@ -70,23 +78,6 @@ export const ministries = [
   },
 ];
 
-export const founders = [
-  {
-    name: "Rev Emmanuel Nkrumah",
-    role: "Founder",
-    image: "/images/emmanuel-nkrumah.jpg",
-  },
-  {
-    name: "Rev Fredrick Odame",
-    role: "Founder",
-    image: "/images/fredrick-odame.jpg",
-  },
-  {
-    name: "Rev Dickson Amoah",
-    role: "Founder",
-    image: null,
-  },
-];
 
 export const journey = [
   {
@@ -117,16 +108,20 @@ export const journey = [
 
 export const galleryPreview = [
   {
-    src: "/images/street-envagelism1.jpg",
-    alt: "Church evangelism",
+    src: "/images/church-overview.jpg",
+    alt: "New Christian Faith Ministry church",
   },
   {
-    src: "/images/youth-group-photo.jpg",
-    alt: "Youth ministry",
+    src: "/images/youth-vibe.jpg",
+    alt: "Youth at New Christian Faith Ministry",
   },
   {
     src: "/images/music-team.jpg",
     alt: "Music ministry",
+  },
+  {
+    src: "/images/men-praying.jpg",
+    alt: "Members praying",
   },
   {
     src: "/images/street-envagelism2.jpg",
@@ -135,9 +130,5 @@ export const galleryPreview = [
   {
     src: "/images/singing-ministry.jpg",
     alt: "Singing ministry",
-  },
-  {
-    src: "/images/street-envagelism3.jpg",
-    alt: "Church outreach",
   },
 ];

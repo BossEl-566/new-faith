@@ -66,61 +66,6 @@ export const coreValues = [
   },
 ];
 
-export const founders = [
-  {
-    name: "Rev Emmanuel Nkrumah",
-    role: "Founder",
-    image: "/images/emmanuel-nkrumah.jpg",
-  },
-  {
-    name: "Rev Fredrick Odame",
-    role: "Founder",
-    image: "/images/fredrick-odame.jpg",
-  },
-  {
-    name: "Rev Dickson Amoah",
-    role: "Founder",
-    image: null,
-  },
-];
-
-export const leadership = [
-  {
-    name: "Ps Nicolas Yeboah",
-    role: "Head Pastor",
-    image: "/images/pastor-yeboah.jpg",
-    description:
-      "Providing pastoral leadership, spiritual direction and oversight for the continuing work of New Christian Faith Ministry.",
-  },
-  {
-    name: "Ps Samuel Baah",
-    role: "Youth Pastor",
-    image: "/images/pastor-baah.jpg",
-    description:
-      "Serving and guiding the youth ministry as young people grow in faith, fellowship, responsibility and purpose.",
-  },
-  {
-    name: "Mrs Sophia Odame",
-    role: "Children's Ministry",
-    image: "/images/sophia-odame.jpg",
-    description:
-      "Serving the spiritual development of children and helping establish strong biblical foundations from an early age.",
-  },
-  {
-    name: "Miss Felicia Falade",
-    role: "Church Secretary",
-    image: "/images/felicia-falade.jpg",
-    description:
-      "Supporting the administration, coordination and organisational work of the church.",
-  },
-  {
-    name: "Elder Arthur",
-    role: "Elder",
-    image: null,
-    description:
-      "Serving the church through spiritual support, leadership and commitment to the work of the ministry.",
-  },
-];
 
 export const faithStatements = [
   {

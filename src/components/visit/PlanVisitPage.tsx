@@ -364,17 +364,30 @@ function VisitLocation({
   return (
     <article className="group overflow-hidden rounded-[28px] border border-slate-100 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
       <div className="relative h-72 overflow-hidden">
-        <Image
-          src={
-            index === 0
-              ? "/images/music-team.jpg"
-              : "/images/youth-group-photo.jpg"
-          }
-          alt={location.name}
-          fill
-          sizes="(max-width: 1024px) 100vw, 50vw"
-          className="object-cover transition-transform duration-700 group-hover:scale-105"
+        {index === 0 ? (
+  <Image
+    src="/images/church-overview.jpg"
+    alt="New Christian Faith Ministry Head Office"
+    fill
+    sizes="(max-width: 1024px) 100vw, 50vw"
+    className="object-cover transition-transform duration-700 group-hover:scale-105"
+  />
+) : (
+  <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-church-blue-dark to-church-blue">
+    <div className="text-center">
+      <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full border border-white/20 bg-white/10">
+        <MapPin
+          size={27}
+          className="text-white"
         />
+      </div>
+
+      <p className="mt-4 text-xs font-semibold uppercase tracking-[0.18em] text-white/60">
+        Branch photo coming soon
+      </p>
+    </div>
+  </div>
+)}
 
         <div className="absolute inset-0 bg-gradient-to-t from-church-blue-dark/85 via-transparent to-transparent" />
 

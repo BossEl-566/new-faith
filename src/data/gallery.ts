@@ -1,5 +1,7 @@
 export type GalleryCategory =
+  | "Church Life"
   | "Worship"
+  | "Prayer"
   | "Youth"
   | "Evangelism"
   | "Ministries"
@@ -15,6 +17,102 @@ export type GalleryImage = {
 };
 
 export const galleryImages: GalleryImage[] = [
+  {
+  id: "church-overview",
+  src: "/images/church-overview.jpg",
+  alt: "New Christian Faith Ministry church",
+  title: "Our Church",
+  category: "Church Life",
+  aspect: "landscape",
+},
+{
+  id: "youth-vibe",
+  src: "/images/youth-vibe.jpg",
+  alt: "Young people at New Christian Faith Ministry",
+  title: "Life Together",
+  category: "Youth",
+  aspect: "landscape",
+},
+{
+  id: "men-praying",
+  src: "/images/men-praying.jpg",
+  alt: "Men praying at New Christian Faith Ministry",
+  title: "A Moment Of Prayer",
+  category: "Prayer",
+  aspect: "landscape",
+},
+{
+  id: "dickson-amoah",
+  src: "/images/dickson-amoah.jpg",
+  alt: "Rev Dickson Amoah",
+  title: "Rev Dickson Amoah",
+  category: "Leadership",
+  aspect: "portrait",
+},
+{
+  id: "felix-nyame",
+  src: "/images/felix-nyame.jpg",
+  alt: "Mr Felix Nyame",
+  title: "Mr Felix Nyame",
+  category: "Leadership",
+  aspect: "portrait",
+},
+{
+  id: "chrisman-yiadom",
+  src: "/images/chrisman-yiadom.jpg",
+  alt: "Pastor Chrisman Boakye Yiadom",
+  title: "Pastor Chrisman Boakye Yiadom",
+  category: "Leadership",
+  aspect: "portrait",
+},
+{
+  id: "joseph-arthur",
+  src: "/images/joseph-arthur.jpg",
+  alt: "Mr Joseph Arthur",
+  title: "Mr Joseph Arthur",
+  category: "Leadership",
+  aspect: "portrait",
+},
+{
+  id: "kennedy-owusu",
+  src: "/images/kennedy-owusu.jpg",
+  alt: "Mr Kennedy Owusu",
+  title: "Mr Kennedy Owusu",
+  category: "Leadership",
+  aspect: "portrait",
+},
+{
+  id: "benoni-odoi",
+  src: "/images/benoni-odoi.jpg",
+  alt: "Mr Benoni Odoi-Boye Odoi",
+  title: "Mr Benoni Odoi-Boye Odoi",
+  category: "Leadership",
+  aspect: "portrait",
+},
+{
+  id: "joyce-sarfo-manu",
+  src: "/images/joyce-sarfo-manu.jpg",
+  alt: "Mrs Joyce Sarfo Manu",
+  title: "Mrs Joyce Sarfo Manu",
+  category: "Leadership",
+  aspect: "portrait",
+},
+{
+  id: "gloria-bimpomaa",
+  src: "/images/gloria-bimpomaa.jpg",
+  alt: "Mrs Gloria Akua Bimpomaa Amoako",
+  title: "Mrs Gloria Akua Bimpomaa Amoako",
+  category: "Leadership",
+  aspect: "portrait",
+},
+{
+  id: "jonah-amoako",
+  src: "/images/jonah-amoako.jpg",
+  alt: "Mr Jonah Ofosu Amoako",
+  title: "Mr Jonah Ofosu Amoako",
+  category: "Leadership",
+  aspect: "portrait",
+},
   {
     id: "street-evangelism-1",
     src: "/images/street-envagelism1.jpg",
@@ -151,7 +249,9 @@ export const galleryImages: GalleryImage[] = [
 
 export const galleryCategories = [
   "All",
+  "Church Life",
   "Worship",
+  "Prayer",
   "Youth",
   "Evangelism",
   "Ministries",

@@ -18,9 +18,12 @@ import {
   aboutTimeline,
   coreValues,
   faithStatements,
+} from "@/data/about";
+
+import {
   founders,
   leadership,
-} from "@/data/about";
+} from "@/data/leadership";
 
 export default function AboutPage() {
   return (
@@ -30,8 +33,8 @@ export default function AboutPage() {
       ====================================================== */}
       <section className="relative flex min-h-[520px] items-center overflow-hidden bg-church-blue-dark lg:min-h-[600px]">
         <Image
-          src="/images/street-envagelism3.jpg"
-          alt="New Christian Faith Ministry"
+          src="/images/church-overview.jpg"
+          alt="New Christian Faith Ministry church"
           fill
           priority
           sizes="100vw"
@@ -308,7 +311,7 @@ export default function AboutPage() {
             align="center"
           />
 
-          <div className="mx-auto mt-14 grid max-w-5xl gap-6 md:grid-cols-3">
+          <div className="mx-auto mt-14 grid max-w-6xl gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {founders.map((person) => (
               <PersonCard
                 key={person.name}
@@ -343,7 +346,7 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+          <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {leadership.map((person) => (
               <LeadershipCard
                 key={person.name}

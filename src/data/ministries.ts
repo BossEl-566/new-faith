@@ -32,7 +32,7 @@ export const ministries: Ministry[] = [
     name: "Women's Ministry",
     shortName: "Women",
     slug: "women",
-    leader: null,
+    leader: "Mrs Joyce Sarfo Manu",
     meeting: null,
     description:
       "Building women of faith, prayer, wisdom, service and godly influence.",
@@ -52,7 +52,10 @@ export const ministries: Ministry[] = [
     longDescription:
       "The Men's Ministry brings men together for fellowship, biblical teaching, prayer, mentorship and service. Its purpose is to encourage men to become spiritually mature disciples who demonstrate integrity, responsibility, leadership and Christlike character in every area of life.",
     image: "/images/men-ministry.jpg",
-    gallery: ["/images/men-ministry.jpg"],
+    gallery: [
+  "/images/men-ministry.jpg",
+  "/images/men-praying.jpg",
+],
   },
   {
     name: "Children's Ministry",

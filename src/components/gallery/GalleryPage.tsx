@@ -48,10 +48,10 @@ export default function GalleryPage() {
             </h1>
 
             <p className="mt-7 max-w-2xl text-base leading-8 text-white/75 sm:text-lg">
-              Explore moments from worship, ministry,
-              evangelism, leadership and life together at
-              New Christian Faith Ministry.
-            </p>
+  Explore moments from worship, prayer, sermons,
+  fellowship, ministry, evangelism and life together at
+  New Christian Faith Ministry.
+</p>
 
             <a
               href="#gallery"

@@ -353,7 +353,7 @@ export default function HomePage() {
           />
 
           <div className="mx-auto mt-12 grid max-w-6xl gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {founders.map((founder) => (
+            {founders.slice(0, 3).map((founder) => (
               <div
                 key={founder.name}
                 className="group overflow-hidden rounded-[26px] border border-slate-100 bg-white shadow-sm transition-all hover:-translate-y-1 hover:shadow-xl"
@@ -387,13 +387,23 @@ export default function HomePage() {
             ))}
           </div>
 
+          <div className="mt-8 text-center">
+  <Link
+    href="/about#founders"
+    className="inline-flex items-center gap-2 text-sm font-semibold text-church-blue-dark transition-colors hover:text-church-red"
+  >
+    Discover Our Founding Story
+    <ArrowRight size={16} />
+  </Link>
+</div>
+
           {/* Current Leadership Highlight */}
           <div className="mt-16 overflow-hidden rounded-[30px] bg-church-blue-dark">
             <div className="grid lg:grid-cols-[0.85fr_1.15fr]">
               <div className="relative min-h-[420px]">
                 <Image
                   src="/images/pastor-yeboah.jpg"
-                  alt="Ps Nicolas Yeboah"
+                  alt="Rev Nicholas Yeboah"
                   fill
                   sizes="(max-width: 1024px) 100vw, 45vw"
                   className="object-cover object-top"
@@ -409,7 +419,7 @@ export default function HomePage() {
                   </p>
 
                   <h3 className="mt-4 text-3xl font-bold text-white sm:text-4xl">
-                    Ps Nicolas Yeboah
+                    Rev Nicholas Yeboah
                   </h3>
 
                   <p className="mt-2 text-sm font-semibold uppercase tracking-wide text-white/55">

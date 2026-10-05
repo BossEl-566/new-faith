@@ -7,18 +7,25 @@ export type ChurchLeader = {
 
 export const founders: ChurchLeader[] = [
   {
+    name: "Rev Kingsley Asiedu",
+    role: "Founder • First Leader of the Church",
+    image: "/images/kingsley-asiedu.jpg",
+    description:
+      "A founder of New Christian Faith Ministry and the first leader of the church, serving during its foundational years.",
+  },
+  {
     name: "Rev Emmanuel Nkrumah",
     role: "Founder",
     image: "/images/emmanuel-nkrumah.jpg",
     description:
-      "One of the founding leaders of New Christian Faith Ministry and a significant figure in the continuing history of the church.",
+      "A founding leader of New Christian Faith Ministry who later served the church through twenty-five years of leadership from 2000 to 2025.",
   },
   {
     name: "Rev Fredrick Odame",
     role: "Founder",
     image: "/images/fredrick-odame.jpg",
     description:
-      "One of the founding leaders whose service and commitment contributed to the establishment of New Christian Faith Ministry.",
+      "One of the founding leaders whose faith and commitment contributed to the establishment of New Christian Faith Ministry.",
   },
   {
     name: "Rev Dickson Amoah",
@@ -32,13 +39,30 @@ export const founders: ChurchLeader[] = [
     role: "Founder",
     image: "/images/felix-nyame.jpg",
     description:
-      "One of the founding members whose contribution forms part of the heritage of New Christian Faith Ministry.",
+      "One of the founders whose contribution forms part of the heritage of New Christian Faith Ministry.",
+  },
+  {
+    name: "Mr Samuel Afful",
+    role: "Founder",
+    image: "/images/samuel-afful.jpg",
+    description:
+      "One of the founders whose service contributed to the establishment and early development of the ministry.",
   },
 ];
 
-export const leadership: ChurchLeader[] = [
+export const foundingMembers: ChurchLeader[] = [
   {
-    name: "Ps Nicolas Yeboah",
+    name: "Pastor Francis Obuobi",
+    role: "Founding Member",
+    image: "/images/francis-obuobi.jpg",
+    description:
+      "A founding member who contributed to the early life and development of New Christian Faith Ministry.",
+  },
+];
+
+export const pastoralLeadership: ChurchLeader[] = [
+  {
+    name: "Rev Nicholas Yeboah",
     role: "Head Pastor",
     image: "/images/pastor-yeboah.jpg",
     description:
@@ -49,21 +73,48 @@ export const leadership: ChurchLeader[] = [
     role: "Pastor",
     image: "/images/chrisman-yiadom.jpg",
     description:
-      "Serving the church through pastoral ministry, spiritual support and the continuing work of the ministry.",
+      "Serving the church through pastoral ministry, spiritual guidance and support for the continuing work of the ministry.",
+  },
+  {
+    name: "Rev Paul Ayirebi",
+    role: "Pastor",
+    image: "/images/paul-ayirebi.jpg",
+    description:
+      "Serving New Christian Faith Ministry through pastoral ministry and spiritual leadership.",
   },
   {
     name: "Ps Samuel Baah",
     role: "Youth Pastor",
     image: "/images/pastor-baah.jpg",
     description:
-      "Serving and guiding the youth ministry as young people grow in faith, fellowship, responsibility and purpose.",
+      "Leading and serving the Youth Ministry as young people grow in faith, fellowship, responsibility and purpose.",
+  },
+];
+
+export const ministryLeadership: ChurchLeader[] = [
+  {
+    name: "Miss Grace Yankey",
+    role: "Children's Ministry Leader",
+    image: "/images/grace-yankey.jpg",
+    description:
+      "Leading the Children's Ministry and helping children establish strong biblical foundations and grow in their knowledge of Christ.",
   },
   {
-    name: "Mrs Sophia Odame",
-    role: "Children's Pastor",
-    image: "/images/sophia-odame.jpg",
+    name: "Mrs Joyce Sarfo Manu",
+    role: "Deaconess • Women's Ministry Leader",
+    image: "/images/joyce-sarfo-manu.jpg",
     description:
-      "Serving the spiritual development of children and helping establish strong biblical foundations from an early age.",
+      "Serving as a deaconess and providing leadership for the Women's Ministry.",
+  },
+];
+
+export const executiveLeadership: ChurchLeader[] = [
+  {
+    name: "Mr Williams Sturf",
+    role: "Chairman",
+    image: "/images/williams-sturf.jpg",
+    description:
+      "Serving the church as Chairman and supporting the leadership and administration of the ministry.",
   },
   {
     name: "Miss Felicia Falade",
@@ -77,8 +128,11 @@ export const leadership: ChurchLeader[] = [
     role: "Financial Secretary",
     image: "/images/kennedy-owusu.jpg",
     description:
-      "Serving the church in financial administration and stewardship.",
+      "Serving the church through financial administration, record keeping and stewardship.",
   },
+];
+
+export const elders: ChurchLeader[] = [
   {
     name: "Mr Joseph Arthur",
     role: "Elder",
@@ -94,18 +148,42 @@ export const leadership: ChurchLeader[] = [
       "Serving the church through spiritual leadership, counsel and support for the ministry.",
   },
   {
+    name: "Mr Kingsford Okyere",
+    role: "Elder",
+    image: "/images/kingsford-okyere.jpg",
+    description:
+      "Serving the church through spiritual leadership, counsel and support for the ministry.",
+  },
+];
+
+export const deacons: ChurchLeader[] = [
+  {
     name: "Mr Benoni Odoi-Boye Odoi",
     role: "Deacon",
     image: "/images/benoni-odoi.jpg",
     description:
-      "Serving the church through diaconal ministry and practical support for the work of the congregation.",
+      "Serving the church through diaconal ministry and practical support for the congregation.",
   },
   {
-    name: "Mrs Joyce Sarfo Manu",
-    role: "Deaconess / Women's Ministry Leader",
-    image: "/images/joyce-sarfo-manu.jpg",
+    name: "Mr Henry Yeboah",
+    role: "Deacon",
+    image: "/images/henry-yeboah.jpg",
     description:
-      "Serving as a deaconess and providing leadership for the Women's Ministry.",
+      "Serving the church through diaconal ministry and practical support for the congregation.",
+  },
+  {
+    name: "Mr Benjamin Tetteh",
+    role: "Deacon",
+    image: "/images/benjamin-tetteh.jpg",
+    description:
+      "Serving the church through diaconal ministry and practical support for the congregation.",
+  },
+  {
+    name: "Mr John Adams",
+    role: "Deacon",
+    image: "/images/john-adams.jpg",
+    description:
+      "Serving the church through diaconal ministry and practical support for the congregation.",
   },
   {
     name: "Mrs Gloria Akua Bimpomaa Amoako",
@@ -114,4 +192,19 @@ export const leadership: ChurchLeader[] = [
     description:
       "Serving the church through diaconal ministry and practical support for the congregation.",
   },
+  {
+    name: "Mrs Joyce Sarfo Manu",
+    role: "Deaconess",
+    image: "/images/joyce-sarfo-manu.jpg",
+    description:
+      "Serving the church through diaconal ministry while also leading the Women's Ministry.",
+  },
+];
+
+export const leadership: ChurchLeader[] = [
+  ...pastoralLeadership,
+  ...ministryLeadership,
+  ...executiveLeadership,
+  ...elders,
+  ...deacons,
 ];

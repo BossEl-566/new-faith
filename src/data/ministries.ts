@@ -61,7 +61,7 @@ export const ministries: Ministry[] = [
     name: "Children's Ministry",
     shortName: "Children",
     slug: "children",
-    leader: "Mrs Sophia Odame",
+    leader: "Miss Grace Yankey",
     meeting: null,
     description:
       "Helping children know Jesus and establish strong biblical foundations from an early age.",

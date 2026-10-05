@@ -21,8 +21,13 @@ import {
 } from "@/data/about";
 
 import {
+  deacons,
+  elders,
+  executiveLeadership,
   founders,
-  leadership,
+  foundingMembers,
+  ministryLeadership,
+  pastoralLeadership,
 } from "@/data/leadership";
 
 export default function AboutPage() {
@@ -311,7 +316,7 @@ export default function AboutPage() {
             align="center"
           />
 
-          <div className="mx-auto mt-14 grid max-w-6xl gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mx-auto mt-14 grid max-w-6xl gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {founders.map((person) => (
               <PersonCard
                 key={person.name}
@@ -323,42 +328,90 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+{foundingMembers.length > 0 ? (
+  <div className="mx-auto mt-12 max-w-3xl rounded-[26px] border border-slate-200 bg-white p-7 text-center shadow-sm">
+    <p className="text-xs font-bold uppercase tracking-[0.2em] text-church-red">
+      Founding Member
+    </p>
 
+    <div className="mx-auto mt-6 max-w-xs">
+      {foundingMembers.map((person) => (
+        <div key={person.name}>
+          <div className="relative mx-auto h-28 w-28 overflow-hidden rounded-full bg-church-blue-dark">
+            {person.image ? (
+              <Image
+                src={person.image}
+                alt={person.name}
+                fill
+                sizes="112px"
+                className="object-cover object-top"
+              />
+            ) : null}
+          </div>
+
+          <h3 className="mt-5 text-lg font-semibold text-church-blue-dark">
+            {person.name}
+          </h3>
+
+          <p className="mt-1 text-xs font-bold uppercase tracking-[0.16em] text-church-red">
+            {person.role}
+          </p>
+        </div>
+      ))}
+    </div>
+  </div>
+) : null}
       {/* =====================================================
           LEADERSHIP
       ====================================================== */}
       <section
-        id="leadership"
-        className="bg-white py-20 sm:py-24 lg:py-32"
-      >
-        <div className="mx-auto max-w-[1440px] px-5 sm:px-8 lg:px-10 xl:px-12">
-          <div className="flex flex-col gap-7 lg:flex-row lg:items-end lg:justify-between">
-            <SectionHeading
-              eyebrow="Serving The Church"
-              title="Our Leadership"
-              description="Meet some of the people serving the church through pastoral ministry, spiritual guidance, administration and ministry leadership."
-            />
+  id="leadership"
+  className="bg-white py-20 sm:py-24 lg:py-32"
+>
+  <div className="mx-auto max-w-[1440px] px-5 sm:px-8 lg:px-10 xl:px-12">
+    <SectionHeading
+      eyebrow="Serving The Church"
+      title="Our Leadership"
+      description="Meet the pastors, ministry leaders, officers, elders, deacons and deaconesses serving New Christian Faith Ministry."
+      align="center"
+    />
 
-            <div className="rounded-xl bg-church-blue-light px-5 py-4">
-              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-church-blue-dark">
-                Christ-centered leadership
-              </p>
-            </div>
-          </div>
+    {/* Pastoral Leadership */}
+    <LeadershipGroup
+      eyebrow="Pastoral Leadership"
+      title="Pastors"
+      people={pastoralLeadership}
+    />
 
-          <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            {leadership.map((person) => (
-              <LeadershipCard
-                key={person.name}
-                name={person.name}
-                role={person.role}
-                image={person.image}
-                description={person.description}
-              />
-            ))}
-          </div>
-        </div>
-      </section>
+    {/* Ministry Leadership */}
+    <LeadershipGroup
+      eyebrow="Ministry Leadership"
+      title="Serving The Next Generation & Our Ministries"
+      people={ministryLeadership}
+    />
+
+    {/* Executive Leadership */}
+    <LeadershipGroup
+      eyebrow="Administration"
+      title="Church Officers"
+      people={executiveLeadership}
+    />
+
+    {/* Elders */}
+    <LeadershipGroup
+      eyebrow="Spiritual Leadership"
+      title="Elders"
+      people={elders}
+    />
+
+    {/* Deacons */}
+    <LeadershipGroup
+      eyebrow="Service"
+      title="Deacons & Deaconesses"
+      people={deacons}
+    />
+  </div>
+</section>
 
       {/* =====================================================
           SPIRITUAL IDENTITY
@@ -653,6 +706,54 @@ function PhotoPlaceholder() {
         <p className="mt-4 text-[11px] font-semibold uppercase tracking-[0.18em] text-white/55">
           Portrait Coming Soon
         </p>
+      </div>
+    </div>
+  );
+}
+
+function LeadershipGroup({
+  eyebrow,
+  title,
+  people,
+}: {
+  eyebrow: string;
+  title: string;
+  people: {
+    name: string;
+    role: string;
+    image: string | null;
+    description: string;
+  }[];
+}) {
+  return (
+    <div className="mt-16 first:mt-14">
+      <div className="flex items-end justify-between gap-6 border-b border-slate-200 pb-5">
+        <div>
+          <p className="text-xs font-bold uppercase tracking-[0.2em] text-church-red">
+            {eyebrow}
+          </p>
+
+          <h3 className="mt-2 text-2xl font-bold text-church-blue-dark">
+            {title}
+          </h3>
+        </div>
+
+        <p className="hidden text-sm text-slate-400 sm:block">
+          {people.length}{" "}
+          {people.length === 1 ? "person" : "people"}
+        </p>
+      </div>
+
+      <div className="mt-7 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        {people.map((person) => (
+          <LeadershipCard
+            key={`${person.name}-${person.role}`}
+            name={person.name}
+            role={person.role}
+            image={person.image}
+            description={person.description}
+          />
+        ))}
       </div>
     </div>
   );

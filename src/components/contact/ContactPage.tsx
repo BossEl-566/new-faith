@@ -33,8 +33,8 @@ export default function ContactPage() {
       ====================================================== */}
       <section className="relative flex min-h-[520px] items-center overflow-hidden bg-church-blue-dark lg:min-h-[600px]">
         <Image
-          src="/images/street-envagelism3.jpg"
-          alt="Contact New Christian Faith Ministry"
+          src="/images/church-overview.jpg"
+          alt="New Christian Faith Ministry Head Office"
           fill
           priority
           sizes="100vw"

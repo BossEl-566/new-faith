@@ -1,35 +1,35 @@
 export const heroSlides = [
   {
-    image: "/images/church-overview.jpg",
-    imageAlt: "New Christian Faith Ministry church",
+    image: "/images/church-members-vibes.jpeg",
+    imageAlt: "New Christian Faith Ministry church family",
     eyebrow: "Welcome To",
     title: "New Christian Faith Ministry",
     description:
       "A community rooted in Jesus Christ, led by the Holy Spirit, and committed to the true, undiluted Word of God.",
   },
   {
+    image: "/images/worship-section.jpeg",
+    imageAlt: "Worship at New Christian Faith Ministry",
+    eyebrow: "A Place Of Worship",
+    title: "Experience The Presence Of God",
+    description:
+      "Gather with us in worship, prayer, fellowship and the life-changing truth of God's Word.",
+  },
+  {
+    image: "/images/church-members-listening-to-sermon-1.jpeg",
+    imageAlt: "Church members listening to the Word of God",
+    eyebrow: "Rooted In Truth",
+    title: "Growing Through The Word",
+    description:
+      "Our faith is continually refined and strengthened through the true, undiluted Word of God.",
+  },
+  {
     image: "/images/youth-vibe.jpg",
     imageAlt: "Young people at New Christian Faith Ministry",
-    eyebrow: "Growing Together In Faith",
-    title: "A Church For Every Generation",
+    eyebrow: "Every Generation",
+    title: "Faith That Continues",
     description:
-      "Building lives, strengthening faith, and equipping believers to stand firmly in the truth of God's Word.",
-  },
-  {
-    image: "/images/music-team.jpg",
-    imageAlt: "New Christian Faith Ministry music ministry",
-    eyebrow: "Worship • Fellowship • Purpose",
-    title: "A Life Of Worship & Service",
-    description:
-      "Growing together through worship, fellowship, service and a shared commitment to Jesus Christ.",
-  },
-  {
-    image: "/images/men-praying.jpg",
-    imageAlt: "Members of New Christian Faith Ministry praying",
-    eyebrow: "A House Of Prayer",
-    title: "Rooted In Prayer & The Word",
-    description:
-      "Seeking God together and allowing His Word and Spirit to shape every area of our faith.",
+      "Building a generation of believers equipped to live boldly for Christ and lead others toward eternity.",
   },
 ];
 
@@ -108,27 +108,27 @@ export const journey = [
 
 export const galleryPreview = [
   {
-    src: "/images/church-overview.jpg",
-    alt: "New Christian Faith Ministry church",
+    src: "/images/worship-section.jpeg",
+    alt: "Worship at New Christian Faith Ministry",
   },
   {
-    src: "/images/youth-vibe.jpg",
-    alt: "Youth at New Christian Faith Ministry",
+    src: "/images/church-members-vibes.jpeg",
+    alt: "New Christian Faith Ministry church family",
   },
   {
-    src: "/images/music-team.jpg",
-    alt: "Music ministry",
+    src: "/images/church-members-listening-to-sermon.jpeg",
+    alt: "Church members listening to a sermon",
   },
   {
-    src: "/images/men-praying.jpg",
-    alt: "Members praying",
+    src: "/images/member-praying.jpeg",
+    alt: "Church member praying",
   },
   {
-    src: "/images/street-envagelism2.jpg",
-    alt: "Street evangelism",
+    src: "/images/singer-singing.jpeg",
+    alt: "Singer leading worship",
   },
   {
-    src: "/images/singing-ministry.jpg",
-    alt: "Singing ministry",
+    src: "/images/greeting.jpeg",
+    alt: "Church members fellowshipping",
   },
 ];

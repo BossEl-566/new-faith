@@ -9,7 +9,7 @@ export const aboutTimeline = [
     year: "Early Years",
     title: "Growing Through Fellowship",
     description:
-      "The ministry continued to grow through prayer, fellowship and commitment to the Word of God. Among the notable early members were Ps Nkrumah, Ps Dickson, Ps Odame, Ps Oboubi, Ps Asiedu and others.",
+      "The ministry continued to grow through prayer, fellowship and commitment to the Word of God. Among the notable early members were Ps Nkrumah, Ps Dickson, Ps Odame, Ps Oboubi, Rev Kingsley Asiedu and others.",
   },
   {
     year: "Darkuman",
@@ -21,13 +21,13 @@ export const aboutTimeline = [
     year: "Kwashieman",
     title: "Establishing A Permanent Home",
     description:
-      "A delegation led by Ps Asiedu, then Head Pastor, acquired land at Kwashieman. This became the permanent location of the church Head Office.",
+      "A delegation led by Rev Kingsley Asiedu, then Head Pastor, acquired land at Kwashieman. This became the permanent location of the church Head Office.",
   },
   {
     year: "1989–1999",
-    title: "Leadership Of Ps Asiedu",
+    title: "Leadership Of Rev Kingsley Asiedu",
     description:
-      "Ps Asiedu served in leadership during the church's foundational decade before departing to pursue his own divine calling.",
+      "Rev Kingsley Asiedu served in leadership during the church's foundational decade before departing to pursue his own divine calling.",
   },
   {
     year: "2000–2025",

@@ -23,8 +23,8 @@ export default function SermonsPage() {
       ====================================================== */}
       <section className="relative flex min-h-[550px] items-center overflow-hidden bg-church-blue-dark lg:min-h-[620px]">
         <Image
-          src="/images/singing-ministry.jpg"
-          alt="New Christian Faith Ministry worship"
+          src="/images/church-members-listening-to-sermon-1.jpeg"
+          alt="Church members listening to a sermon at New Christian Faith Ministry"
           fill
           priority
           sizes="100vw"
@@ -152,7 +152,7 @@ export default function SermonsPage() {
           <div className="grid overflow-hidden rounded-[30px] border border-white/10 bg-white/[0.05] lg:grid-cols-[1.05fr_0.95fr]">
             <div className="relative min-h-[420px] overflow-hidden">
               <Image
-                src="/images/street-envagelism1.jpg"
+                src="/images/pastor-in-traditional-wear-preaching.jpg"
                 alt="New Christian Faith Ministry"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"

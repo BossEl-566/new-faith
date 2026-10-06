@@ -36,8 +36,8 @@ export default function PlanVisitPage() {
       ====================================================== */}
       <section className="relative flex min-h-[600px] items-center overflow-hidden bg-church-blue-dark lg:min-h-[680px]">
         <Image
-          src="/images/youth-group-photo.jpg"
-          alt="Visit New Christian Faith Ministry"
+          src="/images/greeting.jpeg"
+          alt="Members welcoming one another at New Christian Faith Ministry"
           fill
           priority
           sizes="100vw"

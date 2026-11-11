@@ -159,7 +159,7 @@ export const elders: ChurchLeader[] = [
 export const deacons: ChurchLeader[] = [
   {
     name: "Mr Benoni Odoi-Boye Odoi",
-    role: "Deacon",
+    role: "Secretary • Deacon",
     image: "/images/benoni-odoi.jpg",
     description:
       "Serving the church through diaconal ministry and practical support for the congregation.",

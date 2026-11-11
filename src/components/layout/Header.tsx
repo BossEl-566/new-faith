@@ -32,12 +32,12 @@ export default function Header() {
           href="/"
           onClick={closeMobileMenu}
           className="flex min-w-0 items-center gap-3"
-          aria-label="New Christian Faith Ministry home"
+          aria-label="New Christian Faith Ministries home"
         >
           <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-full bg-white">
             <Image
               src="/images/church-logo.jpg"
-              alt="New Christian Faith Ministry logo"
+              alt="New Christian Faith Ministries logo"
               fill
               priority
               sizes="56px"
@@ -51,7 +51,7 @@ export default function Header() {
             </p>
 
             <p className="text-[15px] font-bold uppercase tracking-tight text-church-blue-dark">
-              Faith Ministry
+              Faith Ministries
             </p>
           </div>
         </Link>

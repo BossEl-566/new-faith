@@ -5,21 +5,57 @@ export type ServiceItem = {
   description: string;
 };
 
-export const services: ServiceItem[] = [];
-
-/*
-  ADD REAL SERVICE TIMES WHEN PROVIDED:
-
+export const services: ServiceItem[] = [
   {
-    title: "Sunday Worship",
-    day: "Sunday",
-    time: "8:00 AM",
+    title: "Youth Meeting",
+    day: "Monday",
+    time: "7:00 PM – 8:30 PM",
     description:
-      "Our main Sunday worship gathering.",
-  }
-
-  Do not leave example schedules in production.
-*/
+      "A weekly gathering for the youth of New Christian Faith Ministry focused on fellowship, spiritual growth and participation in the life of the church.",
+  },
+  {
+    title: "Evening Service",
+    day: "Tuesday",
+    time: "7:00 PM – 8:30 PM",
+    description:
+      "Our Tuesday evening gathering for worship, prayer, fellowship and the Word of God.",
+  },
+  {
+    title: "Choir Meeting",
+    day: "Wednesday",
+    time: "7:00 PM – 8:30 PM",
+    description:
+      "A midweek meeting for the choir and music ministry for rehearsal, preparation and ministry development.",
+  },
+  {
+    title: "Men & Women's Meeting",
+    day: "Thursday",
+    time: "7:00 PM – 8:30 PM",
+    description:
+      "A weekly gathering for the men and women of the church focused on fellowship, teaching and spiritual growth.",
+  },
+  {
+    title: "Prayer & Miracle Service",
+    day: "Friday",
+    time: "9:00 AM – 12:00 Noon",
+    description:
+      "A dedicated time of prayer, intercession and seeking God together as a church.",
+  },
+  {
+    title: "Choir Meeting",
+    day: "Saturday",
+    time: "6:30 PM – 8:00 PM",
+    description:
+      "Weekend choir preparation and rehearsal ahead of Sunday worship.",
+  },
+  {
+    title: "Church Service",
+    day: "Sunday",
+    time: "9:00 AM – 12:00 PM",
+    description:
+      "Our main Sunday worship service featuring prayer, worship, fellowship and the teaching of God's Word.",
+  },
+];
 
 export const whatToExpect = [
   {

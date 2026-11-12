@@ -152,33 +152,36 @@ export default function Footer() {
                   <p className="mt-1 text-sm leading-6 text-white/65">
                     {church.address}
                   </p>
+                  <p className="mt-2 text-xs leading-6 text-white/45">
+  {church.postalAddress}
+</p>
                 </div>
               </div>
 
-              {church.phone ? (
-                <a
-                  href={`tel:${church.phone}`}
-                  className="flex items-start gap-3 text-sm text-white/70 transition-colors hover:text-white"
-                >
-                  <Phone
-                    size={18}
-                    className="mt-0.5 shrink-0 text-church-red"
-                  />
+              <div className="flex items-start gap-3">
+  <Phone
+    size={18}
+    className="mt-0.5 shrink-0 text-church-red"
+  />
 
-                  {church.phone}
-                </a>
-              ) : (
-                <div className="flex items-start gap-3">
-                  <Phone
-                    size={18}
-                    className="mt-0.5 shrink-0 text-church-red"
-                  />
+  <div>
+    <p className="text-sm font-semibold text-white">
+      Call Us
+    </p>
 
-                  <p className="text-sm text-white/50">
-                    Phone number coming soon
-                  </p>
-                </div>
-              )}
+    <div className="mt-2 flex flex-col gap-1.5">
+      {church.phones.map((phone) => (
+        <a
+          key={phone.href}
+          href={`tel:${phone.href}`}
+          className="w-fit text-sm text-white/65 transition-colors hover:text-white"
+        >
+          {phone.display}
+        </a>
+      ))}
+    </div>
+  </div>
+</div>
 
               {church.email ? (
                 <a

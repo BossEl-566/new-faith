@@ -90,15 +90,7 @@ export default function ContactPage() {
           />
 
           <div className="mt-12 grid gap-5 md:grid-cols-3">
-            <ContactMethod
-              icon={<Phone size={24} />}
-              title="Phone"
-              value={
-                church.phone ||
-                "Official phone number coming soon"
-              }
-              available={Boolean(church.phone)}
-            />
+            <PhoneContactMethod />
 
             <ContactMethod
               icon={<MessageCircle size={24} />}
@@ -500,5 +492,37 @@ function FormField({
         className="mt-2 h-12 w-full cursor-not-allowed rounded-xl border border-slate-200 bg-white px-4 text-sm text-slate-500 outline-none disabled:opacity-70"
       />
     </div>
+  );
+}
+
+function PhoneContactMethod() {
+  return (
+    <article className="rounded-[24px] border border-slate-100 bg-white p-7 shadow-sm">
+      <div className="flex h-13 w-13 items-center justify-center rounded-2xl bg-church-blue-light text-church-blue-dark">
+        <Phone size={24} />
+      </div>
+
+      <h3 className="mt-6 text-lg font-semibold text-church-blue-dark">
+        Phone
+      </h3>
+
+      <p className="mt-2 text-sm leading-7 text-slate-500">
+        Call the church using any of our official contact numbers.
+      </p>
+
+      <div className="mt-5 flex flex-col gap-2">
+        {church.phones.map((phone) => (
+          <a
+            key={phone.href}
+            href={`tel:${phone.href}`}
+            className="flex items-center justify-between rounded-xl bg-slate-50 px-4 py-3 text-sm font-semibold text-church-blue-dark transition-all hover:bg-church-blue-dark hover:text-white"
+          >
+            {phone.display}
+
+            <ArrowRight size={15} />
+          </a>
+        ))}
+      </div>
+    </article>
   );
 }

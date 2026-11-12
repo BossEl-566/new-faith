@@ -15,12 +15,12 @@ export default function Footer() {
             <Link
               href="/"
               className="inline-flex items-center gap-4"
-              aria-label="New Christian Faith Ministry home"
+              aria-label="New Christian Faith Ministries home"
             >
               <div className="relative h-16 w-16 shrink-0 overflow-hidden rounded-full bg-white">
                 <Image
                   src="/images/church-logo.jpg"
-                  alt="New Christian Faith Ministry logo"
+                  alt="New Christian Faith Ministries logo"
                   fill
                   sizes="64px"
                   className="object-contain"
@@ -33,7 +33,7 @@ export default function Footer() {
                 </p>
 
                 <p className="text-lg font-bold uppercase leading-tight">
-                  Faith Ministry
+                  Faith Ministries
                 </p>
               </div>
             </Link>
@@ -54,7 +54,7 @@ export default function Footer() {
                 href={church.socials.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="New Christian Faith Ministry Facebook"
+                aria-label="New Christian Faith Ministries Facebook"
                 className="flex h-11 w-11 items-center justify-center rounded-full border border-white/20 text-white transition-all hover:border-church-red hover:bg-church-red"
               >
                 <FaFacebookF size={17} />
@@ -64,7 +64,7 @@ export default function Footer() {
                 href={church.socials.youtube}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="New Christian Faith Ministry YouTube"
+                aria-label="New Christian Faith Ministries YouTube"
                 className="flex h-11 w-11 items-center justify-center rounded-full border border-white/20 text-white transition-all hover:border-church-red hover:bg-church-red"
               >
                 <FaYoutube size={19} />
@@ -74,7 +74,7 @@ export default function Footer() {
                 href={church.socials.tiktok}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="New Christian Faith Ministry TikTok"
+                aria-label="New Christian Faith Ministries TikTok"
                 className="flex h-11 w-11 items-center justify-center rounded-full border border-white/20 text-sm font-bold text-white transition-all hover:border-church-red hover:bg-church-red"
               >
                 <FaTiktok size={17} />
@@ -219,7 +219,7 @@ export default function Footer() {
         <div className="mt-14 border-t border-white/10 pt-7">
           <div className="flex flex-col gap-4 text-sm text-white/55 md:flex-row md:items-center md:justify-between">
             <p>
-              © {new Date().getFullYear()} New Christian Faith Ministry.
+              © {new Date().getFullYear()} New Christian Faith Ministries.
               All rights reserved.
             </p>
 

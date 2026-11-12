@@ -15,11 +15,11 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: {
-    default: "New Christian Faith Ministry",
-    template: "%s | New Christian Faith Ministry",
+    default: "New Christian Faith Ministries",
+    template: "%s | New Christian Faith Ministries",
   },
   description:
-    "New Christian Faith Ministry — The Word is true from the beginning.",
+    "New Christian Faith Ministries — The Word is true from the beginning.",
 };
 
 export default function RootLayout({

@@ -33,7 +33,7 @@ export const ministries: Ministry[] = [
     shortName: "Women",
     slug: "women",
     leader: "Mrs Joyce Sarfo Manu",
-    meeting: null,
+    meeting: "Thursdays • 7:00 PM – 8:30 PM",
     description:
       "Building women of faith, prayer, wisdom, service and godly influence.",
     longDescription:
@@ -46,7 +46,7 @@ export const ministries: Ministry[] = [
     shortName: "Men",
     slug: "men",
     leader: null,
-    meeting: null,
+    meeting: "Mondays • 7:00 PM – 8:30 PM",
     description:
       "Developing Christ-centered men who lead with integrity, responsibility and spiritual maturity.",
     longDescription:
@@ -75,7 +75,8 @@ export const ministries: Ministry[] = [
     shortName: "Music & Choir",
     slug: "music",
     leader: null,
-    meeting: null,
+    meeting:
+  "Wednesdays • 7:00 PM – 8:30 PM / Saturdays • 6:30 PM – 8:00 PM",
     description:
       "Serving God and the church through Christ-centered worship, music, praise and song.",
     longDescription:
@@ -121,7 +122,7 @@ export const ministries: Ministry[] = [
     shortName: "Prayer",
     slug: "prayer",
     leader: null,
-    meeting: null,
+    meeting: "Fridays • 9:00 AM – 12:00 Noon",
     description:
       "Strengthening the spiritual life of the church through prayer, intercession and dependence on God.",
     longDescription:

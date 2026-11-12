@@ -215,7 +215,7 @@ export default function PlanVisitPage() {
           />
 
           {services.length > 0 ? (
-            <div className="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+            <div className="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
               {services.map((service) => (
                 <div
                   key={service.title}

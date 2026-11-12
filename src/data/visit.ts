@@ -92,10 +92,10 @@ export const visitFaqs = [
       "Yes. Ebenezer Assemblies is located at Awoshie, adjacent to the DVLA, and is led by Ps Paul.",
   },
   {
-    question: "What time are services?",
-    answer:
-      "The current service schedule has not yet been supplied for publication. Once confirmed, service days and times will appear on this page.",
-  },
+  question: "What time are services?",
+  answer:
+    "At the Head Office in Kwashieman, the main Sunday Church Service is held from 9:00 AM to 12:00 PM. The church also has activities throughout the week, including Youth Meeting on Monday, Evening Service on Tuesday, choir meetings on Wednesday and Saturday, Men & Women's Meeting on Thursday, and Prayer & Miracle Service on Friday.",
+},
   {
     question: "Is there a children's ministry?",
     answer:

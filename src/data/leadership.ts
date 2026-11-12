@@ -117,9 +117,9 @@ export const executiveLeadership: ChurchLeader[] = [
       "Serving the church as Chairman and supporting the leadership and administration of the ministry.",
   },
   {
-    name: "Miss Felicia Falade",
+    name: "Mr Benoni Odoi-Boye Odoi",
     role: "Church Secretary",
-    image: "/images/felicia-falade.jpg",
+    image: "/images/benoni-odoi.jpg",
     description:
       "Supporting the administration, coordination and organisational work of the church.",
   },

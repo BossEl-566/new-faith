@@ -41,7 +41,7 @@ export default function EventsPage() {
       <section className="relative flex min-h-[540px] items-center overflow-hidden bg-church-blue-dark lg:min-h-[620px]">
         <Image
           src="/images/street-envagelism2.jpg"
-          alt="Events at New Christian Faith Ministry"
+          alt="Events at New Christian Faith Ministries"
           fill
           priority
           sizes="100vw"
@@ -70,7 +70,7 @@ export default function EventsPage() {
             <p className="mt-7 max-w-2xl text-base leading-8 text-white/75 sm:text-lg">
               Stay informed about church services, conventions, ministry
               gatherings, outreach activities and special moments in the life
-              of New Christian Faith Ministry.
+              of New Christian Faith Ministries.
             </p>
 
             <a
@@ -328,7 +328,7 @@ export default function EventsPage() {
             </h2>
 
             <p className="mt-4 max-w-2xl text-sm leading-7 text-white/75">
-              Plan your first visit and discover New Christian Faith Ministry
+              Plan your first visit and discover New Christian Faith Ministries
               in person.
             </p>
           </div>

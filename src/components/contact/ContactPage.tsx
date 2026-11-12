@@ -34,7 +34,7 @@ export default function ContactPage() {
       <section className="relative flex min-h-[520px] items-center overflow-hidden bg-church-blue-dark lg:min-h-[600px]">
         <Image
           src="/images/church-overview.jpg"
-          alt="New Christian Faith Ministry Head Office"
+          alt="New Christian Faith Ministries Head Office"
           fill
           priority
           sizes="100vw"
@@ -63,7 +63,7 @@ export default function ContactPage() {
             <p className="mt-7 max-w-2xl text-base leading-8 text-white/75 sm:text-lg">
               Find our church locations, connect through our
               official social platforms, or plan your first
-              visit to New Christian Faith Ministry.
+              visit to New Christian Faith Ministries.
             </p>
 
             <a
@@ -353,7 +353,7 @@ function LocationCard({
         {index === 0 ? (
   <Image
     src="/images/church-overview.jpg"
-    alt="New Christian Faith Ministry Head Office"
+    alt="New Christian Faith Ministries Head Office"
     fill
     sizes="(max-width: 1024px) 100vw, 50vw"
     className="object-cover transition-transform duration-700 group-hover:scale-105"

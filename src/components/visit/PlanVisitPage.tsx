@@ -37,7 +37,7 @@ export default function PlanVisitPage() {
       <section className="relative flex min-h-[600px] items-center overflow-hidden bg-church-blue-dark lg:min-h-[680px]">
         <Image
           src="/images/greeting.jpeg"
-          alt="Members welcoming one another at New Christian Faith Ministry"
+          alt="Members welcoming one another at New Christian Faith Ministries"
           fill
           priority
           sizes="100vw"
@@ -66,7 +66,7 @@ export default function PlanVisitPage() {
             <p className="mt-7 max-w-2xl text-base leading-8 text-white/75 sm:text-lg">
               Whether this is your first church visit or
               you're looking for a community to call home,
-              you're welcome at New Christian Faith Ministry.
+              you're welcome at New Christian Faith Ministries.
             </p>
 
             <a
@@ -89,7 +89,7 @@ export default function PlanVisitPage() {
             <SectionHeading
               eyebrow="Your First Visit"
               title="Come As A Guest. Leave As Family."
-              description="We want your visit to New Christian Faith Ministry to be simple and meaningful."
+              description="We want your visit to New Christian Faith Ministries to be simple and meaningful."
             />
 
             <p className="mt-7 max-w-2xl text-sm leading-8 text-slate-600">
@@ -110,7 +110,7 @@ export default function PlanVisitPage() {
           <div className="relative h-[480px] overflow-hidden rounded-[30px]">
             <Image
               src="/images/music-team.jpg"
-              alt="Worship at New Christian Faith Ministry"
+              alt="Worship at New Christian Faith Ministries"
               fill
               sizes="(max-width: 1024px) 100vw, 45vw"
               className="object-cover"
@@ -367,7 +367,7 @@ function VisitLocation({
         {index === 0 ? (
   <Image
     src="/images/church-overview.jpg"
-    alt="New Christian Faith Ministry Head Office"
+    alt="New Christian Faith Ministries Head Office"
     fill
     sizes="(max-width: 1024px) 100vw, 50vw"
     className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -393,7 +393,7 @@ function VisitLocation({
 
         <div className="absolute bottom-6 left-6">
           <p className="text-xs font-bold uppercase tracking-[0.18em] text-church-red">
-            New Christian Faith Ministry
+            New Christian Faith Ministries
           </p>
 
           <h3 className="mt-2 text-2xl font-semibold text-white">

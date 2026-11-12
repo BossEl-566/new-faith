@@ -5,7 +5,7 @@ import AboutPage from "@/components/about/AboutPage";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about the history, vision, mission, founders and leadership of New Christian Faith Ministry.",
+    "Learn about the history, vision, mission, founders and leadership of New Christian Faith Ministries.",
 };
 
 export default function About() {

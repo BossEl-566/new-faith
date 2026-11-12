@@ -24,7 +24,7 @@ export default function SermonsPage() {
       <section className="relative flex min-h-[550px] items-center overflow-hidden bg-church-blue-dark lg:min-h-[620px]">
         <Image
           src="/images/church-members-listening-to-sermon-1.jpeg"
-          alt="Church members listening to a sermon at New Christian Faith Ministry"
+          alt="Church members listening to a sermon at New Christian Faith Ministries"
           fill
           priority
           sizes="100vw"
@@ -91,7 +91,7 @@ export default function SermonsPage() {
             <SectionHeading
               eyebrow="Rooted In Truth"
               title="The Word Is At The Heart Of Our Faith"
-              description="At New Christian Faith Ministry, biblical teaching is central to our desire to grow in Christ, strengthen faith and equip believers for faithful Christian living."
+              description="At New Christian Faith Ministries, biblical teaching is central to our desire to grow in Christ, strengthen faith and equip believers for faithful Christian living."
             />
 
             <p className="mt-7 max-w-2xl text-sm leading-8 text-slate-600">
@@ -122,7 +122,7 @@ export default function SermonsPage() {
             <div className="relative h-[470px] overflow-hidden rounded-[30px]">
               <Image
                 src="/images/music-team.jpg"
-                alt="Worship at New Christian Faith Ministry"
+                alt="Worship at New Christian Faith Ministries"
                 fill
                 sizes="(max-width: 1024px) 100vw, 45vw"
                 className="object-cover"
@@ -153,7 +153,7 @@ export default function SermonsPage() {
             <div className="relative min-h-[420px] overflow-hidden">
               <Image
                 src="/images/pastor-in-traditional-wear-preaching.jpg"
-                alt="New Christian Faith Ministry"
+                alt="New Christian Faith Ministries"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"
@@ -165,7 +165,7 @@ export default function SermonsPage() {
                 href={church.socials.youtube}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Watch New Christian Faith Ministry on YouTube"
+                aria-label="Watch New Christian Faith Ministries on YouTube"
                 className="absolute left-1/2 top-1/2 flex h-20 w-20 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white text-church-red shadow-2xl transition-transform hover:scale-110"
               >
                 <Play

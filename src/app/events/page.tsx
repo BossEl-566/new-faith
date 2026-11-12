@@ -5,7 +5,7 @@ import EventsPage from "@/components/events/EventsPage";
 export const metadata: Metadata = {
   title: "Events",
   description:
-    "Discover upcoming services, conventions, ministry programmes and special events at New Christian Faith Ministry.",
+    "Discover upcoming services, conventions, ministry programmes and special events at New Christian Faith Ministries.",
 };
 
 export default function Events() {

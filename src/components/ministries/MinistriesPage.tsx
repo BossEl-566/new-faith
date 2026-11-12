@@ -28,7 +28,7 @@ export default function MinistriesPage() {
       <section className="relative flex min-h-[540px] items-center overflow-hidden bg-church-blue-dark lg:min-h-[620px]">
         <Image
           src="/images/youth-group-photo.jpg"
-          alt="New Christian Faith Ministry ministries"
+          alt="New Christian Faith Ministries ministries"
           fill
           priority
           sizes="100vw"

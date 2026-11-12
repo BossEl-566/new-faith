@@ -39,7 +39,7 @@ export default function AboutPage() {
       <section className="relative flex min-h-[520px] items-center overflow-hidden bg-church-blue-dark lg:min-h-[600px]">
         <Image
           src="/images/church-overview.jpg"
-          alt="New Christian Faith Ministry church"
+          alt="New Christian Faith Ministries church"
           fill
           priority
           sizes="100vw"
@@ -83,7 +83,7 @@ export default function AboutPage() {
             <div className="relative h-[520px] overflow-hidden rounded-[30px]">
               <Image
                 src="/images/youth-group-photo.jpg"
-                alt="New Christian Faith Ministry church family"
+                alt="New Christian Faith Ministries church family"
                 fill
                 sizes="(max-width: 1024px) 100vw, 45vw"
                 className="object-cover"
@@ -372,7 +372,7 @@ export default function AboutPage() {
     <SectionHeading
       eyebrow="Serving The Church"
       title="Our Leadership"
-      description="Meet the pastors, ministry leaders, officers, elders, deacons and deaconesses serving New Christian Faith Ministry."
+      description="Meet the pastors, ministry leaders, officers, elders, deacons and deaconesses serving New Christian Faith Ministries."
       align="center"
     />
 
@@ -430,7 +430,7 @@ export default function AboutPage() {
               <Church size={28} className="text-church-red" />
 
               <p className="mt-5 text-sm leading-7 text-white/70">
-                New Christian Faith Ministry is a member church of the
+                New Christian Faith Ministries is a member church of the
                 Pentecostal Council of Ghana.
               </p>
             </div>
@@ -482,7 +482,7 @@ export default function AboutPage() {
                 </h2>
 
                 <p className="mt-5 max-w-xl text-sm leading-8 text-slate-600">
-                  New Christian Faith Ministry identifies as a member church
+                  New Christian Faith Ministries identifies as a member church
                   within the Pentecostal Council of Ghana, while continuing its
                   distinct ministry mandate and commitment to spiritual truth,
                   discipleship and evangelism.
@@ -493,7 +493,7 @@ export default function AboutPage() {
             <div className="relative min-h-[380px]">
               <Image
                 src="/images/music-team.jpg"
-                alt="New Christian Faith Ministry worship"
+                alt="New Christian Faith Ministries worship"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"

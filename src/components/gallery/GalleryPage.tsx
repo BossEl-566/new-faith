@@ -20,7 +20,7 @@ export default function GalleryPage() {
       <section className="relative flex min-h-[540px] items-center overflow-hidden bg-church-blue-dark lg:min-h-[620px]">
         <Image
           src="/images/music-team.jpg"
-          alt="Life at New Christian Faith Ministry"
+          alt="Life at New Christian Faith Ministries"
           fill
           priority
           sizes="100vw"
@@ -50,7 +50,7 @@ export default function GalleryPage() {
             <p className="mt-7 max-w-2xl text-base leading-8 text-white/75 sm:text-lg">
   Explore moments from worship, prayer, sermons,
   fellowship, ministry, evangelism and life together at
-  New Christian Faith Ministry.
+  New Christian Faith Ministries.
 </p>
 
             <a
@@ -72,7 +72,7 @@ export default function GalleryPage() {
           <SectionHeading
             eyebrow="Our Community"
             title="More Than Photographs"
-            description="Every image represents people, moments and expressions of faith that form part of the continuing story of New Christian Faith Ministry."
+            description="Every image represents people, moments and expressions of faith that form part of the continuing story of New Christian Faith Ministries."
           />
 
           <div className="grid grid-cols-2 gap-4">
@@ -109,7 +109,7 @@ export default function GalleryPage() {
         <div className="mx-auto max-w-[1440px] px-5 sm:px-8 lg:px-10 xl:px-12">
           <SectionHeading
             eyebrow="Photo Gallery"
-            title="Life At New Christian Faith Ministry"
+            title="Life At New Christian Faith Ministries"
             description="Browse photographs by category and select any image for a larger view."
           />
 

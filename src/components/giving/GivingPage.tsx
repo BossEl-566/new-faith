@@ -32,7 +32,7 @@ export default function GivingPage() {
       <section className="relative flex min-h-[540px] items-center overflow-hidden bg-church-blue-dark lg:min-h-[620px]">
         <Image
           src="/images/music-team.jpg"
-          alt="Giving at New Christian Faith Ministry"
+          alt="Giving at New Christian Faith Ministries"
           fill
           priority
           sizes="100vw"
@@ -61,7 +61,7 @@ export default function GivingPage() {
             <p className="mt-7 max-w-2xl text-base leading-8 text-white/75 sm:text-lg">
               Giving supports the continuing work of the
               ministry, worship, outreach and the mission of
-              New Christian Faith Ministry.
+              New Christian Faith Ministries.
             </p>
 
             <a
@@ -119,7 +119,7 @@ export default function GivingPage() {
             <div className="relative h-[510px] overflow-hidden rounded-[30px]">
               <Image
                 src="/images/street-envagelism1.jpg"
-                alt="New Christian Faith Ministry outreach"
+                alt="New Christian Faith Ministries outreach"
                 fill
                 sizes="(max-width: 1024px) 100vw, 45vw"
                 className="object-cover"
@@ -246,7 +246,7 @@ export default function GivingPage() {
           <div className="grid gap-4">
             <SecurityItem>
               Use only payment details displayed on the
-              official New Christian Faith Ministry website
+              official New Christian Faith Ministries website
               or confirmed directly by the church.
             </SecurityItem>
 
@@ -366,7 +366,7 @@ export default function GivingPage() {
 
             <p className="mt-4 max-w-2xl text-sm leading-7 text-white/75">
               Your support contributes to the continuing life,
-              work and mission of New Christian Faith Ministry.
+              work and mission of New Christian Faith Ministries.
             </p>
           </div>
 

@@ -41,7 +41,7 @@ export default function HomePage() {
 
             <div className="mt-8 space-y-5 text-[15px] leading-8 text-slate-600">
               <p>
-                New Christian Faith Ministry began through a distinct divine
+                New Christian Faith Ministries began through a distinct divine
                 calling after separating from its mother denomination,
                 Christo Asafo. Through sacrifice, unexpected challenges,
                 relocations and seasons of growth, God has continued to guide
@@ -84,7 +84,7 @@ export default function HomePage() {
               <div className="relative mt-12 h-[420px] overflow-hidden rounded-[28px]">
                 <Image
                   src="/images/church-overview.jpg"
-                  alt="New Christian Faith Ministry church"
+                  alt="New Christian Faith Ministries church"
                   fill
                   sizes="(max-width: 1024px) 50vw, 25vw"
                   className="object-cover transition-transform duration-700 hover:scale-105"
@@ -94,7 +94,7 @@ export default function HomePage() {
               <div className="relative h-[420px] overflow-hidden rounded-[28px]">
                 <Image
                   src="/images/music-team.jpg"
-                  alt="New Christian Faith Ministry music ministry"
+                  alt="New Christian Faith Ministries music ministry"
                   fill
                   sizes="(max-width: 1024px) 50vw, 25vw"
                   className="object-cover transition-transform duration-700 hover:scale-105"
@@ -539,13 +539,13 @@ export default function HomePage() {
                   <LocationCard
                     title="Head Office"
                     address="Kwashieman, Accra"
-                    subtitle="New Christian Faith Ministry"
+                    subtitle="New Christian Faith Ministries"
                   />
 
                   <LocationCard
                     title="Ebenezer Assemblies"
                     address="Awoshie, Adjacent DVLA"
-                    subtitle="New Christian Faith Ministry"
+                    subtitle="New Christian Faith Ministries"
                   />
                 </div>
 
@@ -577,7 +577,7 @@ export default function HomePage() {
               <div className="relative min-h-[400px] lg:min-h-full">
                 <Image
                   src="/images/youth-group-photo.jpg"
-                  alt="New Christian Faith Ministry church community"
+                  alt="New Christian Faith Ministries church community"
                   fill
                   sizes="(max-width: 1024px) 100vw, 40vw"
                   className="object-cover"
@@ -605,7 +605,7 @@ export default function HomePage() {
             </h2>
 
             <p className="mt-3 max-w-2xl text-sm leading-7 text-white/75">
-              Follow New Christian Faith Ministry online for sermons,
+              Follow New Christian Faith Ministries online for sermons,
               teachings, worship and ministry updates.
             </p>
           </div>

@@ -5,7 +5,7 @@ import GalleryPage from "@/components/gallery/GalleryPage";
 export const metadata: Metadata = {
   title: "Gallery",
   description:
-    "Explore photographs from worship, ministries, outreach and church life at New Christian Faith Ministry.",
+    "Explore photographs from worship, ministries, outreach and church life at New Christian Faith Ministries.",
 };
 
 export default function Gallery() {

@@ -513,6 +513,27 @@ export default function HomePage() {
                   description="Whether you are visiting for the first time, returning to church, or looking for a community to call home, you are welcome."
                   light
                 />
+                <div className="mt-8 flex flex-wrap gap-3">
+  <div className="rounded-xl border border-white/10 bg-white/[0.07] px-5 py-4">
+    <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-church-red">
+      Sunday Service
+    </p>
+
+    <p className="mt-1 font-semibold text-white">
+      9:00 AM – 12:00 PM
+    </p>
+  </div>
+
+  <div className="rounded-xl border border-white/10 bg-white/[0.07] px-5 py-4">
+    <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-church-red">
+      Location
+    </p>
+
+    <p className="mt-1 font-semibold text-white">
+      Head Office • Kwashieman
+    </p>
+  </div>
+</div>
 
                 <div className="mt-9 grid gap-4 sm:grid-cols-2">
                   <LocationCard

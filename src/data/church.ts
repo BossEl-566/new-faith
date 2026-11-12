@@ -8,7 +8,22 @@ export const church = {
 
   address: "Kwashieman, Accra, Ghana",
 
-  phone: "",
+  phones: [
+  {
+    display: "0244 089 552",
+    href: "+233244089552",
+  },
+  {
+    display: "0244 275 599",
+    href: "+233244275599",
+  },
+  {
+    display: "0242 245 040",
+    href: "+233242245040",
+  },
+],
+
+postalAddress: "P.O. Box 15510, Accra-North, Ghana",
   whatsapp: "",
   email: "",
 

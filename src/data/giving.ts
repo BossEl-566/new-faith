@@ -73,7 +73,7 @@ export const givingFaqs = [
   {
     question: "Will online payment details be verified?",
     answer:
-      "Only payment information officially supplied and approved by New Christian Faith Ministry should be displayed on this website.",
+      "Only payment information officially supplied and approved by New Christian Faith Ministries should be displayed on this website.",
   },
   {
     question: "Can I give directly at church?",

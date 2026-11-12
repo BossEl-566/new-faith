@@ -1,15 +1,15 @@
 export const heroSlides = [
   {
     image: "/images/church-members-vibes.jpeg",
-    imageAlt: "New Christian Faith Ministry church family",
+    imageAlt: "New Christian Faith Ministries church family",
     eyebrow: "Welcome To",
-    title: "New Christian Faith Ministry",
+    title: "New Christian Faith Ministries",
     description:
       "A community rooted in Jesus Christ, led by the Holy Spirit, and committed to the true, undiluted Word of God.",
   },
   {
     image: "/images/worship-section.jpeg",
-    imageAlt: "Worship at New Christian Faith Ministry",
+    imageAlt: "Worship at New Christian Faith Ministries",
     eyebrow: "A Place Of Worship",
     title: "Experience The Presence Of God",
     description:
@@ -25,7 +25,7 @@ export const heroSlides = [
   },
   {
     image: "/images/youth-vibe.jpg",
-    imageAlt: "Young people at New Christian Faith Ministry",
+    imageAlt: "Young people at New Christian Faith Ministries",
     eyebrow: "Every Generation",
     title: "Faith That Continues",
     description:
@@ -84,7 +84,7 @@ export const journey = [
     year: "1989",
     title: "The Ministry Begins",
     description:
-      "New Christian Faith Ministry emerged from a journey of faith and divine calling, beginning its fellowship at Odorkor Official Town.",
+      "New Christian Faith Ministries emerged from a journey of faith and divine calling, beginning its fellowship at Odorkor Official Town.",
   },
   {
     year: "Growing Years",
@@ -109,11 +109,11 @@ export const journey = [
 export const galleryPreview = [
   {
     src: "/images/worship-section.jpeg",
-    alt: "Worship at New Christian Faith Ministry",
+    alt: "Worship at New Christian Faith Ministries",
   },
   {
     src: "/images/church-members-vibes.jpeg",
-    alt: "New Christian Faith Ministry church family",
+    alt: "New Christian Faith Ministries church family",
   },
   {
     src: "/images/church-members-listening-to-sermon.jpeg",

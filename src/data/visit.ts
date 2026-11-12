@@ -11,7 +11,7 @@ export const services: ServiceItem[] = [
     day: "Monday",
     time: "7:00 PM – 8:30 PM",
     description:
-      "A weekly gathering for the youth of New Christian Faith Ministry focused on fellowship, spiritual growth and participation in the life of the church.",
+      "A weekly gathering for the youth of New Christian Faith Ministries focused on fellowship, spiritual growth and participation in the life of the church.",
   },
   {
     title: "Evening Service",
@@ -84,7 +84,7 @@ export const visitFaqs = [
   {
     question: "Where is the Head Office located?",
     answer:
-      "The Head Office of New Christian Faith Ministry is located at Kwashieman in Accra. Use the Google Maps button on this page for directions.",
+      "The Head Office of New Christian Faith Ministries is located at Kwashieman in Accra. Use the Google Maps button on this page for directions.",
   },
   {
     question: "Do you have another branch?",
@@ -99,7 +99,7 @@ export const visitFaqs = [
   {
     question: "Is there a children's ministry?",
     answer:
-      "Yes. New Christian Faith Ministry has a Children's Ministry led by Mrs Sophia Odame. Visitors can ask a church leader on arrival for the current children's programme arrangements.",
+      "Yes. New Christian Faith Ministries has a Children's Ministry led by Mrs Sophia Odame. Visitors can ask a church leader on arrival for the current children's programme arrangements.",
   },
   {
     question: "How can I join a ministry?",

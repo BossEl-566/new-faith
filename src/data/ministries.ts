@@ -109,7 +109,7 @@ export const ministries: Ministry[] = [
     description:
       "Taking the gospel beyond the church walls and reaching people with the message of Jesus Christ.",
     longDescription:
-      "Evangelism is central to the mission of New Christian Faith Ministry. Through street evangelism, personal outreach, community engagement and other evangelistic activities, members are encouraged to share the gospel and help lead souls toward the saving knowledge of Jesus Christ.",
+      "Evangelism is central to the mission of New Christian Faith Ministries. Through street evangelism, personal outreach, community engagement and other evangelistic activities, members are encouraged to share the gospel and help lead souls toward the saving knowledge of Jesus Christ.",
     image: "/images/street-envagelism1.jpg",
     gallery: [
       "/images/street-envagelism1.jpg",

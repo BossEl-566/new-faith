@@ -39,7 +39,7 @@ export const aboutTimeline = [
     year: "Today",
     title: "Continuing The Mandate",
     description:
-      "New Christian Faith Ministry continues its commitment to the Holy Spirit, the undiluted Word of God, spiritual growth and the eternal salvation of souls.",
+      "New Christian Faith Ministries continues its commitment to the Holy Spirit, the undiluted Word of God, spiritual growth and the eternal salvation of souls.",
   },
 ];
 

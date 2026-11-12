@@ -45,7 +45,7 @@ export const sermonFormats = [
   {
     title: "Video Messages",
     description:
-      "Watch sermons, teachings, worship services and ministry messages from New Christian Faith Ministry.",
+      "Watch sermons, teachings, worship services and ministry messages from New Christian Faith Ministries.",
     type: "video",
   },
   {

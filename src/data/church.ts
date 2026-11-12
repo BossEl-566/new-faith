@@ -1,5 +1,5 @@
 export const church = {
-  name: "New Christian Faith Ministry",
+  name: "New Christian Faith Ministries",
   motto: "The Word is true from the beginning",
   yearFounded: 1989,
 
@@ -31,7 +31,7 @@ postalAddress: "P.O. Box 15510, Accra-North, Ghana",
     headOffice: {
       id: "head-office",
       name: "Head Office",
-      churchName: "New Christian Faith Ministry",
+      churchName: "New Christian Faith Ministries",
       address: "Kwashieman, Accra, Ghana",
       pastor: null,
       mapUrl:
@@ -41,7 +41,7 @@ postalAddress: "P.O. Box 15510, Accra-North, Ghana",
     ebenezerAssemblies: {
       id: "ebenezer-assemblies",
       name: "Ebenezer Assemblies",
-      churchName: "New Christian Faith Ministry",
+      churchName: "New Christian Faith Ministries - Ebenezer Assemblies",
       address: "Awoshie, Adjacent DVLA, Accra, Ghana",
       pastor: "Ps Paul",
       mapUrl:

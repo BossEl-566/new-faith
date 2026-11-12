@@ -25,7 +25,7 @@ export const galleryImages: GalleryImage[] = [
   {
     id: "church-overview",
     src: "/images/church-overview.jpg",
-    alt: "New Christian Faith Ministry church",
+    alt: "New Christian Faith Ministries church",
     title: "Our Church",
     category: "Church Life",
     aspect: "landscape",
@@ -33,7 +33,7 @@ export const galleryImages: GalleryImage[] = [
   {
     id: "church-members-vibes",
     src: "/images/church-members-vibes.jpeg",
-    alt: "Members of New Christian Faith Ministry together",
+    alt: "Members of New Christian Faith Ministries together",
     title: "Life Together",
     category: "Church Life",
     aspect: "landscape",
@@ -93,7 +93,7 @@ export const galleryImages: GalleryImage[] = [
   {
     id: "pastor-preaching-traditional",
     src: "/images/pastor-in-traditional-wear-preaching.jpg",
-    alt: "Pastor preaching at New Christian Faith Ministry",
+    alt: "Pastor preaching at New Christian Faith Ministries",
     title: "Preaching The Word",
     category: "Sermon",
     aspect: "portrait",
@@ -105,7 +105,7 @@ export const galleryImages: GalleryImage[] = [
   {
     id: "worship-section",
     src: "/images/worship-section.jpeg",
-    alt: "Worship at New Christian Faith Ministry",
+    alt: "Worship at New Christian Faith Ministries",
     title: "Worship",
     category: "Worship",
     aspect: "landscape",
@@ -137,7 +137,7 @@ export const galleryImages: GalleryImage[] = [
   {
     id: "singer-singing-2",
     src: "/images/singer-singing-2.jpeg",
-    alt: "Singer at New Christian Faith Ministry",
+    alt: "Singer at New Christian Faith Ministries",
     title: "A Song Of Praise",
     category: "Worship",
     aspect: "portrait",
@@ -145,7 +145,7 @@ export const galleryImages: GalleryImage[] = [
   {
     id: "music-team",
     src: "/images/music-team.jpg",
-    alt: "New Christian Faith Ministry music team",
+    alt: "New Christian Faith Ministries music team",
     title: "Music Ministry",
     category: "Worship",
     aspect: "landscape",
@@ -153,7 +153,7 @@ export const galleryImages: GalleryImage[] = [
   {
     id: "singing-ministry",
     src: "/images/singing-ministry.jpg",
-    alt: "New Christian Faith Ministry singing ministry",
+    alt: "New Christian Faith Ministries singing ministry",
     title: "Worship Through Song",
     category: "Worship",
     aspect: "portrait",
@@ -165,7 +165,7 @@ export const galleryImages: GalleryImage[] = [
   {
     id: "member-praying",
     src: "/images/member-praying.jpeg",
-    alt: "Member praying at New Christian Faith Ministry",
+    alt: "Member praying at New Christian Faith Ministries",
     title: "In Prayer",
     category: "Prayer",
     aspect: "portrait",
@@ -181,7 +181,7 @@ export const galleryImages: GalleryImage[] = [
   {
     id: "men-praying",
     src: "/images/men-praying.jpg",
-    alt: "Men praying at New Christian Faith Ministry",
+    alt: "Men praying at New Christian Faith Ministries",
     title: "Men In Prayer",
     category: "Prayer",
     aspect: "landscape",
@@ -193,7 +193,7 @@ export const galleryImages: GalleryImage[] = [
   {
     id: "youth-ministry",
     src: "/images/youth-ministry.jpg",
-    alt: "New Christian Faith Ministry youth ministry",
+    alt: "New Christian Faith Ministries youth ministry",
     title: "Youth Ministry",
     category: "Youth",
     aspect: "portrait",
@@ -201,7 +201,7 @@ export const galleryImages: GalleryImage[] = [
   {
     id: "youth-ministry-2",
     src: "/images/youth-ministry-2.jpg",
-    alt: "Young people at New Christian Faith Ministry",
+    alt: "Young people at New Christian Faith Ministries",
     title: "Youth Fellowship",
     category: "Youth",
     aspect: "landscape",
@@ -209,7 +209,7 @@ export const galleryImages: GalleryImage[] = [
   {
     id: "youth-group",
     src: "/images/youth-group-photo.jpg",
-    alt: "New Christian Faith Ministry youth group",
+    alt: "New Christian Faith Ministries youth group",
     title: "Growing Together",
     category: "Youth",
     aspect: "landscape",
@@ -229,7 +229,7 @@ export const galleryImages: GalleryImage[] = [
   {
     id: "street-evangelism-1",
     src: "/images/street-envagelism1.jpg",
-    alt: "New Christian Faith Ministry street evangelism",
+    alt: "New Christian Faith Ministries street evangelism",
     title: "Street Evangelism",
     category: "Evangelism",
     aspect: "landscape",
@@ -237,7 +237,7 @@ export const galleryImages: GalleryImage[] = [
   {
     id: "street-evangelism-2",
     src: "/images/street-envagelism2.jpg",
-    alt: "New Christian Faith Ministry outreach",
+    alt: "New Christian Faith Ministries outreach",
     title: "Sharing The Gospel",
     category: "Evangelism",
     aspect: "portrait",
@@ -245,7 +245,7 @@ export const galleryImages: GalleryImage[] = [
   {
     id: "street-evangelism-3",
     src: "/images/street-envagelism3.jpg",
-    alt: "New Christian Faith Ministry evangelism",
+    alt: "New Christian Faith Ministries evangelism",
     title: "Community Outreach",
     category: "Evangelism",
     aspect: "landscape",
@@ -257,7 +257,7 @@ export const galleryImages: GalleryImage[] = [
   {
     id: "mens-ministry",
     src: "/images/men-ministry.jpg",
-    alt: "New Christian Faith Ministry Men's Ministry",
+    alt: "New Christian Faith Ministries Men's Ministry",
     title: "Men's Ministry",
     category: "Ministries",
     aspect: "landscape",
@@ -265,7 +265,7 @@ export const galleryImages: GalleryImage[] = [
   {
     id: "media-team",
     src: "/images/media-team.jpg",
-    alt: "New Christian Faith Ministry Media Team",
+    alt: "New Christian Faith Ministries Media Team",
     title: "Media Ministry",
     category: "Ministries",
     aspect: "landscape",
@@ -277,7 +277,7 @@ export const galleryImages: GalleryImage[] = [
   {
     id: "traditional-sunday-wear",
     src: "/images/traditional-sunday-wear.jpg",
-    alt: "Traditional Sunday at New Christian Faith Ministry",
+    alt: "Traditional Sunday at New Christian Faith Ministries",
     title: "Traditional Sunday",
     category: "Culture",
     aspect: "landscape",

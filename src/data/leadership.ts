@@ -11,35 +11,35 @@ export const founders: ChurchLeader[] = [
     role: "Founder • First Leader of the Church",
     image: "/images/kingsley-asiedu.jpg",
     description:
-      "A founder of New Christian Faith Ministry and the first leader of the church, serving during its foundational years.",
+      "A founder of New Christian Faith Ministries and the first leader of the church, serving during its foundational years.",
   },
   {
     name: "Rev Emmanuel Nkrumah",
     role: "Founder",
     image: "/images/emmanuel-nkrumah.jpg",
     description:
-      "A founding leader of New Christian Faith Ministry who later served the church through twenty-five years of leadership from 2000 to 2025.",
+      "A founding leader of New Christian Faith Ministries who later served the church through twenty-five years of leadership from 2000 to 2025.",
   },
   {
     name: "Rev Fredrick Odame",
     role: "Founder",
     image: "/images/fredrick-odame.jpg",
     description:
-      "One of the founding leaders whose faith and commitment contributed to the establishment of New Christian Faith Ministry.",
+      "One of the founding leaders whose faith and commitment contributed to the establishment of New Christian Faith Ministries.",
   },
   {
     name: "Rev Dickson Amoah",
     role: "Founder",
     image: "/images/dickson-amoah.jpg",
     description:
-      "One of the founding leaders of New Christian Faith Ministry.",
+      "One of the founding leaders of New Christian Faith Ministries.",
   },
   {
     name: "Mr Felix Nyame",
     role: "Founder",
     image: "/images/felix-nyame.jpg",
     description:
-      "One of the founders whose contribution forms part of the heritage of New Christian Faith Ministry.",
+      "One of the founders whose contribution forms part of the heritage of New Christian Faith Ministries.",
   },
   {
     name: "Mr Samuel Afful",
@@ -56,7 +56,7 @@ export const foundingMembers: ChurchLeader[] = [
     role: "Founding Member",
     image: "/images/francis-obuobi.jpg",
     description:
-      "A founding member who contributed to the early life and development of New Christian Faith Ministry.",
+      "A founding member who contributed to the early life and development of New Christian Faith Ministries.",
   },
 ];
 
@@ -66,7 +66,7 @@ export const pastoralLeadership: ChurchLeader[] = [
     role: "Head Pastor",
     image: "/images/pastor-yeboah.jpg",
     description:
-      "Providing pastoral leadership, spiritual direction and oversight for the continuing work of New Christian Faith Ministry.",
+      "Providing pastoral leadership, spiritual direction and oversight for the continuing work of New Christian Faith Ministries.",
   },
   {
     name: "Pastor Chrisman Boakye Yiadom",
@@ -80,7 +80,7 @@ export const pastoralLeadership: ChurchLeader[] = [
     role: "Pastor",
     image: "/images/paul-ayirebi.jpg",
     description:
-      "Serving New Christian Faith Ministry through pastoral ministry and spiritual leadership.",
+      "Serving New Christian Faith Ministries through pastoral ministry and spiritual leadership.",
   },
   {
     name: "Ps Samuel Baah",

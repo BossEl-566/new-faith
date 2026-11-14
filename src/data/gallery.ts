@@ -98,6 +98,46 @@ export const galleryImages: GalleryImage[] = [
     category: "Sermon",
     aspect: "portrait",
   },
+  {
+    id: "pastor-preaching-traditional-1",
+    src: "/images/small-chu1.jpg",
+    alt: "Pastor preaching at New Christian Faith Ministries",
+    title: "Preaching The Word",
+    category: "Sermon",
+    aspect: "portrait",
+  },
+  {
+    id: "pastor-preaching-traditional-2",
+    src: "/images/small-ch2.jpg",
+    alt: "Pastor preaching at New Christian Faith Ministries",
+    title: "Preaching The Word",
+    category: "Sermon",
+    aspect: "portrait",
+  },
+  {
+    id: "pastor-preaching-traditional-3",
+    src: "/images/small-ch3.jpg",
+    alt: "Pastor preaching at New Christian Faith Ministries",
+    title: "Preaching The Word",
+    category: "Sermon",
+    aspect: "portrait",
+  },
+  {
+    id: "pastor-preaching-traditional-4",
+    src: "/images/small-ch4.jpg",
+    alt: "Pastor preaching at New Christian Faith Ministries",
+    title: "Preaching The Word",
+    category: "Sermon",
+    aspect: "portrait",
+  },
+  {
+    id: "pastor-preaching-traditional-5",
+    src: "/images/small-ch5.jpg",
+    alt: "Pastor preaching at New Christian Faith Ministries",
+    title: "Preaching The Word",
+    category: "Sermon",
+    aspect: "portrait",
+  },
 
   /* ========================================================
      WORSHIP

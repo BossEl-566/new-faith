@@ -89,6 +89,13 @@ export const pastoralLeadership: ChurchLeader[] = [
     description:
       "Leading and serving the Youth Ministry as young people grow in faith, fellowship, responsibility and purpose.",
   },
+  {
+    name: "Pastor Foster Boadi",
+    role: "Pastor",
+    image: "/images/pastor-boide.jpg",
+    description:
+      "Serving the church through pastoral ministry, spiritual guidance and support for the continuing work of the ministry.",
+  },
 ];
 
 export const ministryLeadership: ChurchLeader[] = [

@@ -8,8 +8,8 @@
   "build": "next build",
   "start": "next start",
   "lint": "eslint .",
-  "preview": "npm run build && wrangler dev",
-  "deploy": "npm run build && wrangler deploy"
+  "preview": "npm run build && wrangler dev --config wrangler.jsonc",
+  "deploy": "npm run build && wrangler deploy --config wrangler.jsonc"
 },
   "repository": {
     "type": "git",

@@ -359,20 +359,31 @@ function LocationCard({
     className="object-cover transition-transform duration-700 group-hover:scale-105"
   />
 ) : (
-  <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-church-blue-dark to-church-blue">
-    <div className="text-center">
-      <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full border border-white/20 bg-white/10">
-        <MapPin
-          size={27}
-          className="text-white"
-        />
-      </div>
+  // <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-church-blue-dark to-church-blue">
+  //   <div className="text-center">
+  //     <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full border border-white/20 bg-white/10">
+  //       <MapPin
+  //         size={27}
+  //         className="text-white"
+  //       />
+  //     </div>
 
-      <p className="mt-4 text-xs font-semibold uppercase tracking-[0.18em] text-white/60">
-        Branch photo coming soon
-      </p>
-    </div>
-  </div>
+  //     <Image
+  //       src="/images/small-ch2.jpg"
+  //       alt="Ebenezer Assemblies"
+  //       width={200}
+  //       height={200}
+  //       className="object-cover"
+  //     />
+  //   </div>
+  // </div>
+  <Image
+    src="/images/small-ch2.jpg"
+    alt="New Christian Faith Ministries Head Office"
+    fill
+    sizes="(max-width: 1024px) 100vw, 50vw"
+    className="object-cover transition-transform duration-700 group-hover:scale-105"
+  />
 )}
 
         <div className="absolute inset-0 bg-gradient-to-t from-church-blue-dark/85 via-church-blue-dark/10 to-transparent" />

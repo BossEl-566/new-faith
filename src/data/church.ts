@@ -33,7 +33,7 @@ postalAddress: "P.O. Box 15510, Accra-North, Ghana",
       name: "Head Office",
       churchName: "New Christian Faith Ministries",
       address: "Kwashieman, Accra, Ghana",
-      pastor: null,
+      pastor: "Rev Nicholas Yeboah",
       mapUrl:
         "https://maps.app.goo.gl/k4DVaTdvgL6mpEKNA?g_st=it",
     },
